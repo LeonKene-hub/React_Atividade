@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #8758FF;
+}
+.Form{
+  width: 750px;
+  height: 495px;
+  background-color: #1E123B;
+  border-radius: 8px;
+}

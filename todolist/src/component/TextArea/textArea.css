@@ -1,0 +1,13 @@
+.area{
+    width: 577px;
+    height: 177px;
+    padding: 8px 9px;
+    border-radius: 8px;
+    color: #FCFCFC;
+    border: 2px solid #FCFCFC;
+    background-color: transparent;
+}
+
+textarea::placeholder {
+    color: #FCFCFC;
+}

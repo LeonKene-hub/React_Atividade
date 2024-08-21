@@ -1,0 +1,9 @@
+.check_body{
+    width: 675px;
+    height: 62px;
+    border-radius: 8px;
+    background-color: #FCFCFC;
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+}

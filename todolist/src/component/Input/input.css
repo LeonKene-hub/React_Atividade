@@ -1,0 +1,25 @@
+.input_box {
+    width: 308px;
+    padding: 8px 9px;
+    border-radius: 8px;
+    border: 2px solid #FCFCFC;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input_insert {
+    background-color: transparent;
+    width: 280px;
+    border: none;
+    color: #FCFCFC;
+}
+
+input::placeholder {
+    color: #FCFCFC;
+    text-align: right;
+}
+input:focus{
+    outline: none;
+}

@@ -11,4 +11,14 @@
   height: 495px;
   background-color: #1E123B;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.titulo_holder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
 }

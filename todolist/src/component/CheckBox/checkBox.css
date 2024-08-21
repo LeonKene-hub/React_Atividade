@@ -1,9 +1,58 @@
-.check_body{
+.check_body {
     width: 675px;
     height: 62px;
     border-radius: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
     background-color: #FCFCFC;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0px 12px;
+}
+
+.check_input {
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    margin-right: 10px;
+    appearance: none;
+    border: 2px solid #8758FF;
+    background-color: #BDA4FF;
+}
+
+.check_input:checked {
+    background-color: #1E123B;
+    border: 2px solid #1E123B;
+}
+
+.check_input:checked::after {
+    content: '\2713';
+    font-size: 25px;
+    color: white;
+    position: relative;
+    left: 25%;
+    bottom: 8%;
+}
+
+.alinhado {
+    display: flex;
+    align-items: center;
+}
+
+.botao {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #1E123B;
+    border-radius: 8px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.espaco {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
 }
